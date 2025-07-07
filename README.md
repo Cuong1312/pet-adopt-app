@@ -1,22 +1,38 @@
 
 # 🐶 Pet Adopt App
+🔍 Tính năng
+Xác thực người dùng: Người dùng có thể đăng ký, đăng nhập, và đăng xuất khỏi hệ thống.
 
-Ứng dụng cho phép người dùng tìm và nhận nuôi thú cưng qua thiết bị di động. Được phát triển bằng **React Native**, sử dụng **Expo** và **Firebase**.
+Chức năng CRUD: Người dùng có thể thực hiện các thao tác Thêm (Create), Xem (Read), Chỉnh sửa (Update) và Xoá (Delete) đối với các bài đăng thú cưng.
 
-## 🚀 Công nghệ sử dụng
+Tải ảnh lên: Người dùng có thể tải ảnh thú cưng lên khi muốn đăng tin cho nhận nuôi.
 
-- React Native + Expo
-- Firebase (Authentication, Firestore, Storage)
-- React Navigation
-- TypeScript
-- Git & GitHub
+Chức năng tìm kiếm: Cho phép người dùng tìm kiếm thú cưng dựa theo nhiều tiêu chí như giống loài, độ tuổi, v.v.
 
-## 📱 Tính năng chính (dự kiến)
+Giao diện phản hồi tốt (Responsive design): Ứng dụng được thiết kế phù hợp với mọi thiết bị, từ điện thoại đến máy tính, đảm bảo trải nghiệm mượt mà.
 
-- Đăng nhập, đăng ký tài khoản
-- Xem danh sách thú cưng
-- Nhận nuôi thú cưng
-- Quản lý hồ sơ cá nhân
+Công nghệ được sử dụng
+🎨 Frontend (Giao diện người dùng):
+React.js – Thư viện JavaScript để xây dựng giao diện người dùng hiện đại.
+
+Redux – Dùng để quản lý trạng thái toàn cục của ứng dụng.
+
+Material UI – Thư viện giao diện dựa theo phong cách thiết kế Material Design của Google.
+
+🛠 Backend (Phía máy chủ):
+Node.js – Môi trường chạy JavaScript phía backend.
+
+Express.js – Framework nhẹ và mạnh mẽ để xây dựng API trong Node.js.
+
+MongoDB – Hệ quản trị cơ sở dữ liệu NoSQL.
+
+Mongoose (ODM) – Thư viện giúp thao tác với MongoDB dễ dàng hơn thông qua mô hình đối tượng (Object Data Modeling).
+
+🔐 Xác thực người dùng:
+JWT (JSON Web Tokens) – Công nghệ mã hóa token dùng để xác thực đăng nhập và bảo mật người dùng.
+
+🔗 Khác:
+Axios – Thư viện JavaScript dùng để gửi các yêu cầu HTTP (GET, POST, PUT, DELETE) từ frontend đến backend.
 
 ## 📎 Link demo + báo cáo
 
